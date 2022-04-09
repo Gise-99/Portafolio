@@ -1,0 +1,39 @@
+.menu{
+    align-items: center;
+    background:#704481;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+    
+}
+.menu__container{
+    display: flex;
+    
+}
+.menu__logo{
+    color: #ffffff;
+    font-size: 25px;
+    padding: 4px;
+    font-family: 'Smokum', cursive;
+}
+.menu__ul{
+    display: flex;  
+}
+.menu__link{
+    color:#ffffff;;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 8px 0 8px;
+}
+.menu__link:hover{
+    text-decoration: underline;
+    color: #e4dee7;
+}
+@media screen and (max-width:768px) {
+    .menu__container{
+        display: none;
+        text-align: center;
+    }
+}

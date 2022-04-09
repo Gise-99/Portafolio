@@ -1,0 +1,25 @@
+.pie_de_pagina{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background: #10002b;
+    color: #fff;
+    height: 100px;
+    justify-content: center;
+}
+.pie_de_pagina p {
+    text-align: center;
+    font-size: 12px;
+}
+@media screen and (max-width: 780px){
+    .pie_de_pagina{
+        height: 100px;
+    }
+    .pie_de_pagina p{
+        color: white;
+        font-size:11px;
+        margin-top: 10px;
+
+    }
+
+}

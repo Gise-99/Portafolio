@@ -1,0 +1,53 @@
+.sobreMi {
+  align-items: center;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+.sobreMi__titulo {
+  font-family: "librebaskerville-bold", serif;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 2em;
+  color: #505050;
+  padding: 8px;
+}
+.sobreMi__parrafo {
+  font-weight: 100;
+  font-size: 20px;
+  padding: 4px;
+  margin: 20px;
+}
+.sobreMi__descargar__cv {
+  border-radius: 1em;
+  background-color: #704481;
+  color: white;
+  display: block;
+  font-weight: 1rem;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.8em;
+  width: 12em;
+}
+.sobreMi__descargar__cv:hover {
+  background: rgb(190, 166, 235);
+  color: white;
+  border: #19191a;
+  transform: scale(1.2);
+}
+@media screen and (max-width: 768px) {
+  .sobreMi {
+    height: 360px;
+  }
+  .sobreMi__titulo {
+    font-size: 1.5em;
+  }
+  .sobreMi__parrafo {
+    font-size: 18px;
+    text-align:justify;
+  }
+}
